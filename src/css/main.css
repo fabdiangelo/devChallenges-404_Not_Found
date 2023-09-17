@@ -1,0 +1,77 @@
+#message{
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    color: #4f4f4f;
+}
+#title{
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    color: #333;
+    font-size: 8vh;
+    margin-bottom: 0;
+}
+#button{
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    color: #fff;
+    background-color: #333;
+    font-size: 14px;
+    padding: 15px;
+    margin-top: 15px;
+}
+#image{
+    width: 60%;
+    min-width: 300px;
+}
+#error{
+    font-family: 'Inconsolata', monospace;
+    color: #333;
+    position: absolute;
+    top: 1vh;
+    left: 3vh;
+}
+#footer{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #bdbdbd;
+    text-align: center;
+    position: fixed;
+    width: 95%;
+    bottom: 0;
+    background-color: #fff;
+}
+#gitLink{
+    font-weight: 700;
+    color: #bdbdbd;
+    text-decoration: none;
+}
+#content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 15vh 15%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 800px) {
+    #content{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10vh 5%;
+    }
+    #top_left{
+        text-align: center;
+    }
+    #title{
+        font-size: 5vw;
+    }
+    #image{
+        max-width: 80vw;
+    }
+}

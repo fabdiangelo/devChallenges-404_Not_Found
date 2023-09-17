@@ -21,6 +21,12 @@
       rel="stylesheet"
     />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/main.css">
+
     <title>Devchallenges</title>
 
     <style>
@@ -61,7 +67,23 @@
     </style>
   </head>
   <body>
-    <div class="welcome">
+    <header>
+      <h4 id="error">404 NOT FOUND</h4>
+    </header>
+    <main id="content">
+      <section id="top_left">
+        <img src="./img/Scarecrow.png" id="image">
+      </section>
+      <section id="bottom_right">
+        <h1 id="title">I have bad news for you</h1>
+        <p id="message">The page you are looking for might be removed or is temporarily unavailable</p>
+        <button id="button" href="#">BACK TO HOMEPAGE</button>
+      </section>
+    </main>
+    <footer id="footer">
+      <p>created by <a href="https://github.com/fabdiangelo" id="gitLink">FabDiAngelo</a> - devChallenges.io</p>
+    </footer>
+    <!--<div class="welcome">
       <div class="welcome-text">
         <h1>
           Welcome to
@@ -90,6 +112,6 @@
           platforms to ask for feedback
         </li>
       </ul>
-    </div>
+    </div> -->
   </body>
 </html>
