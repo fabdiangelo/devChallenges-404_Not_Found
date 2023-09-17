@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://fabdiangelo.github.io/devChallenges-404_Not_Found/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://main--jade-sorbet-8cf3fe.netlify.app/">
       Solution
     </a>
     <span> | </span>
